@@ -5,12 +5,13 @@
 }
 
 body {
-  font: 'Oswald', sans-serif;
+  font-family:  'Oswald', sans-serif;
   line-height: 1.66889;
   color: #000;
   background: #fff;
   margin: 0;
-  padding: 0;
+  padding: 0; 
+  background-color: #3f61753f;
   
 }
 
@@ -27,6 +28,7 @@ header {
 
 h1 {
   color:aliceblue;
+  font-family: 'Montserrat',sans-serif;
   font-size: 60px;
   padding-top: 0;
 
@@ -34,6 +36,7 @@ h1 {
 }
 header h2 {
   margin-top: 5px;
+
   font-style: italic;
   font-size: 30px;
 }
@@ -55,15 +58,14 @@ header h2 {
 
 .summary p {
   font-family: 'Oswald', sans-serif;
-  font-size: 15px;
-  font-weight: bold;
+  font-size: 14px; 
   text-align: center;
-  padding-top: 15px;
+  padding-top: 5px;
   margin-right: 2em;  
   background-color: rgba(127, 251, 255, 0.486);
   border: 1px solid rgb(3, 70, 3);
   box-shadow: 5px 5px #1c98e0;
-  padding-bottom: 5em;
+  padding-bottom: 2em;
   
 }
 
@@ -125,7 +127,8 @@ footer {
   position: absolute;
   bottom: 0;
   left: 0;
-  margin-bottom: 50px;
+  margin-bottom: 90px;
+  margin-left: 14px;
 }
 
 .sidebar .wrapper {
@@ -133,8 +136,10 @@ footer {
   font-size: 10px;
   background: transparent url(images/garden2.jpg) top left repeat-y;
   background-blend-mode:darken;  
-  margin-top: 200px;
+  padding-top: -60px;
   width: 150px;
+  position: absolute;
+  display: flex;
 
 }
 
@@ -151,7 +156,6 @@ footer {
   margin: 30px 0 5px 0;
   width: 60px;
   height: 15px;
-
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
@@ -161,7 +165,6 @@ footer {
   margin: 25px 0 5px 0;
   width: 63px;
   height: 10px;
-
   text-indent: 100%;
   white-space: nowrap;
   overflow: hidden;
